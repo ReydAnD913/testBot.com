@@ -5,7 +5,6 @@ $data = json_decode(file_get_contents('php://input'), TRUE);
 //var_dump($data);
 file_put_contents('file.txt', '$data: '.print_r($data, 1)."\n", FILE_APPEND);
 
-
 https://api.telegram.org/bot1383876587:AAFEm6QgA6qQIzdxDrH8hyGEvUGn2i40P4E/setwebhook?url=https://test-13.000webhostapp.com/public_html/index.php
 //
 //
